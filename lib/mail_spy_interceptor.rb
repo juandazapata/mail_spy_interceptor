@@ -1,6 +1,6 @@
 require 'mail'
 
-class MailSpy
+class MailSpyInterceptor
   def initialize(recipients)
     @recipients = normalize_to_array(recipients)
   end
