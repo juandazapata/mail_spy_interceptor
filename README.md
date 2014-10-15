@@ -1,8 +1,8 @@
-# MailSpy
+# MailSpyInterceptor
 [![Build
 Status](https://secure.travis-ci.org/juandazapata/mail_spy.png)](http://travis-ci.org/juandazapata/mail_spy?branch=master)
 [![Code
-Quality](https://codeclimate.com/badge.png)](https://codeclimate.com/github/juandazapata/mail_spy)
+Climate](https://codeclimate.com/github/juandazapata/mail_spy_interceptor/badges/gpa.svg)](https://codeclimate.com/github/juandazapata/mail_spy_interceptor)
 
 BCC yourself in every email sent by your Rails application.
 
@@ -11,13 +11,13 @@ BCC yourself in every email sent by your Rails application.
 In `Gemfile`:
 
 ```ruby
-gem 'mail_spy'
+gem 'mail_spy_interceptor'
 ```
 
 In `config/environments/production.rb`:
 
 ```ruby
-Mail.register_interceptor MailSpy.new(ENV['EMAIL_RECIPIENTS'])
+Mail.register_interceptor MailSpyInterceptor.new(ENV['EMAIL_RECIPIENTS'])
 ```
 
 From the command line:

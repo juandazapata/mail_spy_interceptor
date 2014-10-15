@@ -1,20 +1,20 @@
-require File.join(File.dirname(__FILE__), '..', 'lib', 'mail_spy')
+require File.join(File.dirname(__FILE__), '..', 'lib', 'mail_spy_interceptor')
 
-describe MailSpy do
+describe MailSpyInterceptor do
   it 'overrides bcc field' do
-    Mail.register_interceptor MailSpy.new(recipient_string)
+    Mail.register_interceptor MailSpyInterceptor.new(recipient_string)
     response = deliver_mail
     expect(response.bcc).to eq [recipient_string]
   end
 
   it 'accepts an array of recipients' do
-    Mail.register_interceptor MailSpy.new(recipient_array)
+    Mail.register_interceptor MailSpyInterceptor.new(recipient_array)
     response = deliver_mail
     expect(response.bcc).to eq recipient_array
   end
 
   it 'accepts a string of recipients' do
-    Mail.register_interceptor MailSpy.new(recipient_string)
+    Mail.register_interceptor MailSpyInterceptor.new(recipient_string)
     response = deliver_mail
     expect(response.bcc).to eq [recipient_string]
   end
