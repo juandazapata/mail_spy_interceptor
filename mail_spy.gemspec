@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['juanzuluaga@gmail.com']
   spec.files         = ['lib/mail_spy.rb']
   spec.homepage      = 'https://gitub.com/juandazapata/mail_spy'
-  spec.name          = 'mail_spy'
+  spec.name          = 'mail_spy_interceptor'
   spec.require_paths = ['lib']
   spec.summary       = %q{ Send BCC to yourself }
   spec.test_files    = ['spec/mail_spy_spec.rb']
