@@ -1,6 +1,6 @@
 # MailSpyInterceptor
 [![Build
-Status](https://secure.travis-ci.org/juandazapata/mail_spy.png)](http://travis-ci.org/juandazapata/mail_spy?branch=master)
+Status](https://secure.travis-ci.org/juandazapata/mail_spy_interceptor.png)](http://travis-ci.org/juandazapata/mail_spy?branch=master)
 [![Code
 Climate](https://codeclimate.com/github/juandazapata/mail_spy_interceptor/badges/gpa.svg)](https://codeclimate.com/github/juandazapata/mail_spy_interceptor)
 

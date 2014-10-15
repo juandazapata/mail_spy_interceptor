@@ -18,6 +18,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.summary       = %q{ Send BCC to yourself }
   spec.test_files    = ['spec/mail_spy_interceptor_spec.rb']
-  spec.version       = '0.0.2'
+  spec.version       = '0.0.3'
   spec.license       = 'MIT'
 end
